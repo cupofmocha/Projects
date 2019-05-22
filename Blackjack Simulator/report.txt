@@ -1,0 +1,51 @@
+Question 1:
+From my results, it appears that as the number of rolling increases from 10 to 1,000 then to
+100,000 , the chance of each of the six faces of the single die appearing becomes more and 
+more equal. This phenomenon makes sense because as you increase the number of 
+experiments/rolling, more data would be gathered and the average of them would indicate that
+each face has roughly 1/6 of the chance being rolled.
+
+Question 2:
+My result indicates that there is only about 8% chance that there is exactly an even split
+between the occurence of low and high values, after performing 10,000 experiments.
+Let's say for 1 experiment, there could be two possibilites, low value or high value, then
+since we are expecting 50 of them are low and the other 50 are high, we are essentially
+choosing 50 from 100 (100 C 50). Then the total possibilites are 2^100 for 100 rolls
+due to two possible values: high or low, thus
+the chance of getting equal amounts of high value and low value is: (100 C 50) / 2^100,
+which is approximately 8%.
+
+Question 3:
+From my results, it can be observed that the chance of each sum occuring, from 2 to 12,
+are approximately: 3%, 6%, 8%, 11%, 14%, 17%, 14%, 11%, 8%, 6%, 3%. This is as expected
+because say for sum to be 2, there is only 1 possibility 1+1, so its chance of occuring is
+merely 1/36 = 3%. However, take sum = 7 for example, this has the highest chance of occuring
+because there are 6 possibilities in which it could occur: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
+Due to this nature, the distribution is expected to be:
+Total on dice	Pairs of dice	              Probability
+    2	        1+1	                      1/36 = 3%
+    3	        1+2, 2+1	              2/36 = 6%
+    4	        1+3, 2+2, 3+1	              3/36 = 8%
+    5	        1+4, 2+3, 3+2, 4+1	      4/36 = 11%
+    6	        1+5, 2+4, 3+3, 4+2, 5+1	      5/36 = 14%
+    7	        1+6, 2+5, 3+4, 4+3, 5+2, 6+1  6/36 = 17%
+    8	        2+6, 3+5, 4+4, 5+3, 6+2	      5/36 = 14%
+    9	        3+6, 4+5, 5+4, 6+3	      4/36 = 11%
+   10	        4+6, 5+5, 6+4	              3/36 = 8%
+   11	        5+6, 6+5	              2/36 = 6%
+   12	        6+6	                      1/36 = 3%
+
+Question 4:
+From my results, I would pick the threshold 18 for stand. The reasoning is because it is
+pretty close to the blackjack value of 21, with a relatively low busting probability (¡Ö40%).
+I would not want to consider thresholds 19 or above since their busting probability are all
+greater than 50%, which means that you are more likely to bust than to be safe.
+
+Question 5:
+From my result, it apppears that the hi-lo card counting algorithm yielded approximately
+23% to 24% chance of betting right. Although this is not an impressive result, it could be
+used as an indication to decide how much you should wager for the next hand. 
+For example, if you have lost 3 bets, then the next one you are likely to bet it correctly,
+so you might want to wager higher for the next hand. Conversely, if you have won a bet, 
+then you would expect the next few hands are not favoured to you, 
+so you should reserve your wager.
