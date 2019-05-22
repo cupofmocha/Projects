@@ -1,1 +1,1 @@
-# Contains various projects that I made through my ECE program.
+Contains various projects that I made through my ECE program.
