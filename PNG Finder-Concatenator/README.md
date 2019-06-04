@@ -11,5 +11,5 @@
 <h2> How it works </h2>
 
 <p>
-  
+  findpng.c: Uses iteration and the fread() function to read the header (first 8 bytes) of each file under a directory. If the second, third, and fourth byte correspond to the ASCII code of 'P', 'N', 'G' respectively, then this is a legitimate PNG file.
 </p>
