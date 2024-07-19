@@ -1,1 +1,1 @@
-Contains various projects that I made through my ECE undergraduate program.
+Contains various projects that I made throughout my ECE undergraduate program.
